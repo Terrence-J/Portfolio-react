@@ -6,12 +6,12 @@ const About = () => {
 
         const handleDownload = () => {
          
-          const cvPath = `${process.env.PUBLIC_URL}/Current CV.pdf`;
+          const cvPath = `${process.env.PUBLIC_URL}/Graduate CV_merged (1).pdf`;
 
           const link = document.createElement('a');
           link.href = cvPath;
     
-          link.download = 'Current CV.pdf';
+          link.download = 'Graduate CV.pdf';
       
           link.click();
         };

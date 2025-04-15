@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+/* Make slick arrows visible with your color */
+.slick-prev:before,
+.slick-next:before {
+  color: #00df9a !important;
+  font-size: 30px; /* Optional: adjust size */
+}
+
